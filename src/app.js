@@ -10,9 +10,9 @@ import viewsRouter from './routes/views.routes.js';
 const app = express();
 mongoose.set('strictQuery', true);
 const user = 'kaoh0';
-const dbname = 'cluster0';
-const password = '05EnuLXUjYRUjXcA';
-const uri =  `mongodb+srv://${user}:${password}@cluster0.lh4w9og.mongodb.net/${dbname}?retryWrites=true&w=majority`;
+const dbname = 'ecommerce';
+const password = 'hx1xVbLU3Gs3R2Tb';
+const uri =  `mongodb+srv://${user}:${password}@ecommerce.l6epe3o.mongodb.net/${dbname}?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, 
     { useNewUrlParser: true, useUnifiedTopology: true }
